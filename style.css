@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .2s linear;
+}
+ 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+}
+
+
+/* header section */
+
+header
+{
+    background-color: rgb(255, 255, 255);
+    
+    -webkit-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+    position: fixed;
+    display: flex;
+    padding:1rem 7%;
+    top:0; left: 0; right:0;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header a
+{
+    color: #8200F6;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+header a:hover
+{
+
+} 
+
+header a c
+{
+    color:rgb(0, 0, 0);
+
+}
+
+header a d
+{
+    color:rgb(0, 0, 0);
+    opacity: 0.5;
+}
+
+header nav
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header nav a
+{
+    color: #8200F6;
+    padding: 0.2rem;
+    border-radius: .5rem;
+    
+}
+
+header nav a:hover
+{
+    background-color: #8200F6;
+    color:  #fff;
+    padding: 0.2rem;
+    border-radius: .5rem;
+}
+
+/* HEADER END */
+
+
+
+/* About us section */
+
+.AboutMeSection
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+  padding-top: 7rem;
+}
+
+.AboutMeSection .image
+{
+    margin: 2em;
+}
+
+.AboutMeSection .image img
+{
+
+  width: 37.5rem;
+  
+}
+
+.AboutMeSection .text .container{
+    background-color: #f1f1f1;
+    padding: 1em;
+    border-radius: .5rem;
+
+}
+
+.AboutMeSection .text .container h1{
+    
+    padding: 1em;
+    padding-left: 0em;
+    font-size: 30px;
+    
+
+}
+
+.AboutMeSection .text img
+{
+    margin-top: 2em;
+  width: 12em;
+}
+
+/* About Me END */
+
+
+/* Skills Section */
+.SkillsSection
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+}
+
+.SkillsSection .image
+{
+    margin: 2em;
+}
+
+.SkillsSection .image img
+{
+
+  width: 37.5rem;
+  
+}
+
+.SkillsSection .text .container{
+    background-color: #f1f1f1;
+    padding: 1em;
+    border-radius: .5rem;
+    display: flex;
+
+    
+
+}
+
+.SkillsSection .text .container .box{
+
+
+}
+
+
+.SkillsSection .text .container h1{
+    
+    padding: 1em;
+    padding-left: 1em;
+    font-size: 40px;
+    
+
+}
+
+.SkillsSection .text .container li{
+    
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: inline-block; 
+    
+
+}
+
+.SkillsSection .text img
+{
+    margin-top: 2em;
+  width: 20em;
+}
+
+/* skills Section END */
+
+
+
+/* Resume Section */
+.ResumeSection
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+}
+
+.ResumeSection .image
+{
+    margin: 2em;
+}
+
+.ResumeSection .image img
+{
+
+  width: 37.5rem;
+  
+}
+
+.ResumeSection .text .container{
+    background-color: #f1f1f1;
+    padding: 1em;
+    border-radius: .5rem;
+    
+
+    
+
+}
+
+.ResumeSection .text .container .box{
+
+
+}
+
+
+.ResumeSection .text .container h1{
+    
+    padding: 1em;
+    padding-left: 0em;
+    font-size: 40px;
+    padding-bottom: 0.5em;
+
+}
+
+.ResumeSection .text .container li{
+    
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: inline-block; 
+    
+
+}
+
+.ResumeSection .text .container button{
+
+    background-color: #f1f1f1;
+    color: #8200F6;
+    padding: 0.2rem;
+    border-radius: .5rem;
+    border-color: #8200F6;
+    border-style: solid;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.ResumeSection .text .container button:hover
+{
+    background-color: #8200F6;
+    color:  #fff;
+    padding: 0.2rem;
+    border-radius: .5rem;
+}
+
+.ResumeSection .text .container p
+{
+    padding-bottom: 1em;
+}
+
+.ResumeSection .text img
+{
+    margin-top: 2em;
+  width: 20em;
+}
+
+/* Resume section END */
+
+
+/* Contact me section */
+
+
+.ContactSection
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+  
+}
+
+.ContactSection .image
+{
+    margin: 2em;
+}
+
+.ContactSection .image img
+{
+
+  width: 37.5rem;
+  
+}
+
+.ContactSection .text
+{
+    margin-bottom: 10em;
+    
+}
+
+.ContactSection .text .container{
+    background-color: #f1f1f1;
+    padding: 1em;
+    border-radius: .5rem;
+    padding-right: em;
+
+
+    
+
+}
+
+
+
+
+.ContactSection .text .container h1{
+    
+    padding: 1em;
+    padding-left: 0em;
+    font-size: 40px;
+    padding-bottom: 0.5em;
+
+}
+
+.ContactSection .text .container li{
+    
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: inline-block; 
+    
+
+}
+
+.ContactSection .text .container button{
+
+    background-color: #f1f1f1;
+    color: #8200F6;
+    padding: 0.2rem;
+    margin: 0.2em;
+    border-radius: .5rem;
+    border-color: #8200F6;
+    border-style: solid;
+    font-size: 20px;
+    font-weight: bold;
+
+    
+    
+    
+
+}
+
+.ContactSection .text .container button:hover
+{
+    background-color: #8200F6;
+    color:  #fff;
+    padding: 0.2rem;
+    border-radius: .5rem;
+}
+
+.ContactSection .text .container p
+{
+    padding-bottom: 1em;
+}
+
+.ContactSection .text img
+{
+    margin-top: 2em;
+  width: 20em;
+}
+
+/* Contact me END */
+
+
+/* Projects Section */
+
+.ProjectsSection
+{
+    background-color: #fff;
+    padding: 32px 0;
+    padding-top: 7rem;
+}
+
+.ProjectsSection h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.ProjectsSection .Projects-Container .box-1
+{   background-color: #f1f1f1;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.ProjectsSection .Projects-Container .box-1 img
+{
+    
+    width: 65%;
+    height: 60%;
+}
+
+.ProjectsSection .Projects-Container
+{
+    text-align: center;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.ProjectsSection button{
+
+    background-color: #f1f1f1;
+    color: #8200F6;
+    padding: 0.2rem;
+    border-radius: .5rem;
+    border-color: #8200F6;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.ProjectsSection button:hover
+{
+    background-color: #8200F6;
+    color:  #fff;
+    padding: 0.2rem;
+    border-radius: .5rem;
+}
+
+/* Projects Section END */
