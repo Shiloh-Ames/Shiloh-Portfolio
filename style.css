@@ -20,6 +20,7 @@ html,body
 }
 
 
+
 /* header section */
 
 header
@@ -33,6 +34,7 @@ header
     top:0; left: 0; right:0;
     justify-content: space-between;
     z-index: 1000;
+    
 }
 
 header a
@@ -40,6 +42,7 @@ header a
     color: #8200F6;
     font-weight: bold;
     text-decoration: none;
+    
 
 }
 
@@ -64,6 +67,7 @@ header nav
 {
     margin-top: auto;
     margin-bottom: auto;
+    
 }
 
 header nav a
@@ -81,6 +85,20 @@ header nav a:hover
     padding: 0.2rem;
     border-radius: .5rem;
 }
+
+
+/* for button  */
+#check 
+{
+    display: none;
+}
+
+.checkbtn
+{
+    display: none;
+}
+
+
 
 /* HEADER END */
 
@@ -281,6 +299,7 @@ header nav a:hover
     color:  #fff;
     padding: 0.2rem;
     border-radius: .5rem;
+    cursor: pointer;
 }
 
 .ResumeSection .text .container p
@@ -373,6 +392,7 @@ header nav a:hover
     border-style: solid;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 
     
     
@@ -452,6 +472,7 @@ header nav a:hover
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .ProjectsSection button:hover
 {
@@ -462,3 +483,523 @@ header nav a:hover
 }
 
 /* Projects Section END */
+
+@media screen and (max-width: 1268px) {
+    /*changes reflects on screen with a width of 720px and below*/
+    .AboutMeSection .image img
+{
+
+    width: 25rem;
+  
+}
+
+/* SKILLS SECTTION  */
+.SkillsSection{
+    gap: 0rem;
+}
+
+.SkillsSection .image img
+{
+
+    width: 25rem;
+}    
+
+.SkillsSection .text .container h1{
+    
+    padding: 1em;
+    padding-left: 0em;
+    font-size: 30px;
+}
+
+.SkillsSection .text .container li{
+    
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: inline-block; 
+    
+
+}
+
+
+/* RESUME SECTION  */
+.ResumeSection{
+    gap: 0rem;
+}
+
+.ResumeSection .image img
+{
+
+  width: 25rem;
+  
+}
+
+.ResumeSection .text .container h1{
+    
+    padding: 0.2em;
+    padding-left: 0em;
+    font-size: 30px;
+}
+
+
+/* CONTACT SECTION  */
+
+.ContactSection{
+    gap: 0rem;
+}
+
+.ContactSection .text .container h1{
+    
+    padding: 0.2em;
+    padding-left: 0em;
+    font-size: 30px;
+}
+
+.ContactSection .image img
+{
+
+  width: 25rem;
+  
+}
+
+  }
+
+
+
+
+
+  /* TABLET SIZED SCREENS */
+  @media screen and (max-width: 870px) {
+
+
+    /* About Section  */
+
+    .AboutMeSection .image img
+    {
+    
+        width: 18rem;
+      
+    }
+
+    .AboutMeSection .text .container h1{
+        
+        padding: 1em;
+        padding-left: 0em;
+        font-size: 25px;
+    }
+
+    .AboutMeSection .text .container p
+    {
+        font-size: 13px;
+    }
+    
+    /* SKILLS SECTTION  */
+    .SkillsSection{
+        gap: 0rem;
+    }
+    
+    .SkillsSection .image img
+    {
+    
+        width: 18rem;
+    }    
+    
+    .SkillsSection .text .container h1{
+        
+        padding: 1em;
+        padding-left: 0em;
+        font-size: 25px;
+    }
+    
+    .SkillsSection .text .container li{
+        
+        margin-right: 5px;
+        margin-bottom: 5px;
+        font-size: 12px;
+        display: inline-block; 
+        
+    
+    }
+    
+    
+    /* RESUME SECTION  */
+    .ResumeSection{
+        gap: 0rem;
+    }
+    
+    .ResumeSection .image img
+    {
+    
+      width: 18rem;
+      
+    }
+    
+    .ResumeSection .text .container h1{
+        
+        padding: 0.2em;
+        padding-left: 0em;
+        font-size: 25px;
+    }
+    .ResumeSection .text .container p
+    {
+        font-size: 12px;
+    }
+    
+    
+    /* Projects section  */
+
+    .ProjectsSection .Projects-Container{
+        flex-direction: column;
+    }
+
+
+    /* CONTACT SECTION  */
+    
+    .ContactSection{
+        gap: 0rem;
+    }
+    
+    .ContactSection .text .container h1{
+        
+        padding: 0.2em;
+        padding-left: 0em;
+        font-size: 25px;
+    }
+
+    .ContactSection .text .container p {
+     
+        font-size: 12px;
+
+
+    }
+    .ContactSection .text .container button {
+        font-size: 15px;
+    }
+    
+    .ContactSection .image img
+    {
+    
+      width: 18rem;
+      
+    }
+  }
+
+
+/* SMALL SCREENS  */
+
+@media screen and (max-width: 695px) {
+
+
+
+    header nav{
+   
+
+    }
+
+    /* About Section  */
+
+    .AboutMeSection
+    {
+        flex-wrap: wrap;
+    }
+
+    .AboutMeSection .image img
+    {
+        width:100%;
+    }
+
+    .AboutMeSection .text .container
+    {
+        margin: 15px ;
+    }
+
+    .AboutMeSection .text .container h1{
+        
+        padding: 1em;
+        text-align: center;
+        padding-bottom: 0.2em;
+        font-size: 35px;
+    }
+
+    .AboutMeSection .text .container p
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .AboutMeSection .text  img
+    {
+        display: none;
+    }
+
+    /* Skills Section  */
+
+    .SkillsSection
+    {
+        flex-wrap: wrap-reverse;    
+    }
+
+    .SkillsSection .image img
+    {
+        width:100%;
+    }
+
+    .SkillsSection .text .container
+    {
+        margin: 15px ;
+    }
+
+    .SkillsSection .text .container h1{
+        
+        padding: 1em;
+        text-align: center;
+        padding-bottom: 0.2em;
+        font-size: 35px;
+        
+    }
+
+    .SkillsSection .text  img
+    {
+        display: none;
+    }
+
+
+    /* Resume Section  */
+    .ResumeSection
+    {
+        flex-wrap: wrap;
+    }
+
+    .ResumeSection .image img
+    {
+        width:100%;
+    }
+
+    .ResumeSection .text .container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 0px ;
+    }
+
+    .ResumeSection .text .container h1{
+        
+        padding: 1em;
+        text-align: center;
+        padding-bottom: 0.2em;
+        font-size: 35px;
+    }
+
+    .ResumeSection .text .container p
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+    .ResumeSection .text .container a{
+       
+
+
+    }
+
+    .ResumeSection .text  img
+    {
+        display: none;
+    }   
+
+
+
+
+
+    /* Contact section  */
+
+     
+     .ContactSection
+     {
+         flex-wrap: wrap;
+     }
+ 
+     .ContactSection .image img
+     {
+         width:100%;
+     }
+ 
+     .ContactSection .text .container
+     {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+ 
+         margin: 0px ;
+     }
+ 
+     .ContactSection .text .container h1{
+         
+         padding: 1em;
+         text-align: center;
+         padding-bottom: 0.2em;
+         font-size: 35px;
+     }
+ 
+     .ContactSection .text .container p
+     {
+         font-size: 20px;
+         text-align: center;
+     }
+     .ContactSection .text .container a{
+        
+ 
+ 
+     }
+ 
+     .ContactSection .text  img
+     {
+         display: none;
+     }   
+
+
+     /* BURGER MENU SECTION  */
+
+       header nav a
+     {
+        display: block;
+        font-size: 20px;
+        margin: 25px 0;
+        line-height: 30px;
+        
+     }  
+
+     .checkbtn
+     {
+        font-size: 30px;
+        color: grey;
+        float: right;
+        /* line-height:  80px; */
+        margin-right: 40px;
+        cursor: pointer;
+        display: block;
+     }
+
+     header nav
+     {
+        position: fixed;
+        width: 100%;
+        height: auto;
+        background: #f1f1f1;
+        top: 70px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        border-radius: .5rem;
+        /* border-color: #999999;
+        border-style: solid; */
+
+        
+    }
+     #check:checked ~ nav {
+        left:0;
+     }
+
+
+
+@media screen and (max-width: 520px) {
+
+
+
+
+        /* Resume Section  */
+    .ResumeSection
+    {
+        flex-wrap: wrap;
+    }
+
+    .ResumeSection .image img
+    {
+        width:100%;
+    }
+
+    .ResumeSection .text .container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 0px ;
+    }
+
+    .ResumeSection .text .container h1{
+        
+        padding: 1em;
+        text-align: center;
+        padding-bottom: 0.2em;
+        font-size: 30px;
+    }
+
+    .ResumeSection .text .container p
+    {
+        font-size: 11px;
+        text-align: center;
+    }
+    .ResumeSection .text .container a{
+       
+
+
+    }
+
+    .ResumeSection .text  img
+    {
+        display: none;
+    } 
+
+
+
+
+
+    /* Skills Section  */
+
+    .SkillsSection
+    {
+        flex-wrap: wrap-reverse;    
+    }
+
+    .SkillsSection .image img
+    {
+        width:100%;
+    }
+
+    .SkillsSection .text .container
+    {
+        margin: 70px ;
+    }
+
+    .SkillsSection .text .container h1{
+        
+        padding: 0.5 em;
+        text-align: center;
+        padding-bottom: 0.2em;
+        font-size: 20px;
+        
+    }
+    .SkillsSection .text .container li{
+        
+        margin-right: 2px;
+        margin-bottom: 1px;
+        font-size: 10px;
+        display: inline-block; 
+        
+    
+    }
+
+    .SkillsSection .text  img
+    {
+        display: none;
+    }
+     }
+     
+
+
+}    
