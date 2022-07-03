@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap');
 
 *{
     margin: 0;
@@ -102,6 +102,60 @@ header nav a:hover
 
 /* HEADER END */
 
+/* Home section  */
+
+.HomeSection
+{
+    height: fit-content;
+    max-width: 100%;
+    padding: 2em;
+    padding-top: 4em;
+    padding-bottom: 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.HomeSection .text
+{
+    
+     align-items: center;
+     width: 100%;
+    
+   
+}
+
+.HomeSection .text h1
+{
+    
+    font-weight: 800;
+     align-items: center;
+     font-size: 7em;
+     
+}
+
+.HomeSection b
+{
+    color: #8200F6;
+}
+
+.HomeSection .image
+{
+    padding: 1em;
+    /* width: 90%; */
+}
+
+.HomeSection .image img
+{
+
+    width: 100%;
+}
+
+
+/* Home END  */
 
 
 /* About us section */
@@ -115,6 +169,7 @@ header nav a:hover
   max-width: 68.75rem;
   margin: auto;
   padding-top: 7rem;
+  border-bottom: 2px solid #f1f1f1;
 }
 
 .AboutMeSection .image
@@ -163,6 +218,8 @@ header nav a:hover
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+
+  border-bottom: 2px solid #f1f1f1;
 }
 
 .SkillsSection .image
@@ -231,6 +288,10 @@ header nav a:hover
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  border-bottom: 2px solid #f1f1f1;
 }
 
 .ResumeSection .image
@@ -327,6 +388,8 @@ header nav a:hover
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+
+  
   
 }
 
@@ -428,7 +491,9 @@ header nav a:hover
 {
     background-color: #fff;
     padding: 32px 0;
-    padding-top: 7rem;
+    padding-top: 1rem;
+
+    border-bottom: 2px solid #f1f1f1;
 }
 
 .ProjectsSection h1{
@@ -442,6 +507,11 @@ header nav a:hover
     box-shadow: 0 3px 10px var(--primary-shadow);
     padding: 20px;
     margin: 10px;
+
+}
+.ProjectsSection .Projects-Container .box-1 p
+{
+    padding-bottom: 10px;
 
 }
 
@@ -572,6 +642,21 @@ header nav a:hover
   @media screen and (max-width: 870px) {
 
 
+
+
+    /* Home Sectiion  */
+
+    .HomeSection .text h1
+    {
+        
+        font-weight: 800;
+        align-items: center;
+        font-size: 5em;
+        
+    }
+    
+
+
     /* About Section  */
 
     .AboutMeSection .image img
@@ -625,6 +710,7 @@ header nav a:hover
     /* RESUME SECTION  */
     .ResumeSection{
         gap: 0rem;
+       
     }
     
     .ResumeSection .image img
@@ -637,6 +723,7 @@ header nav a:hover
     .ResumeSection .text .container h1{
         
         padding: 0.2em;
+        
         padding-left: 0em;
         font-size: 25px;
     }
@@ -690,6 +777,25 @@ header nav a:hover
 @media screen and (max-width: 695px) {
 
 
+    /* home section  */
+
+    .HomeSection
+    {
+        padding: 3em;
+        padding-top: 3.5em;
+        
+    }
+
+    .HomeSection .image
+    {
+        padding: 1em;
+        display: none;
+    }
+
+    .HomeSection .text h1
+    {
+        font-size: 5em;
+    }
 
     header nav{
    
@@ -908,7 +1014,16 @@ header nav a:hover
 @media screen and (max-width: 520px) {
 
 
+    .HomeSection
+    {
+        padding: 2em;
+        padding-top: 4.5em;
+    }
 
+    .HomeSection .text h1
+    {
+        font-size: 3em;
+    }
 
         /* Resume Section  */
     .ResumeSection
