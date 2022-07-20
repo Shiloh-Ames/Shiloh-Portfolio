@@ -554,6 +554,77 @@ header nav a:hover
 
 /* Projects Section END */
 
+/* Projects Section */
+
+.TestimonalSection
+{
+    background-color: #fff;
+    padding: 32px 0;
+    padding-top: 1rem;
+
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.TestimonalSection h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.TestimonalSection .Projects-Container .box-1
+{   background-color: #f1f1f1;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+
+}
+.TestimonalSection .Projects-Container .box-1 p
+{
+    padding-bottom: 10px;
+
+}
+
+.TestimonalSection .Projects-Container .box-1 img
+{
+    
+    width: 65%;
+    height: 60%;
+}
+
+.TestimonalSection .Projects-Container
+{
+    text-align: center;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20em;
+  padding-bottom: 1em;
+  padding-top: 0em;
+}
+
+.TestimonalSection button{
+
+    background-color: #f1f1f1;
+    color: #8200F6;
+    padding: 0.2rem;
+    border-radius: .5rem;
+    border-color: #8200F6;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.TestimonalSection button:hover
+{
+    background-color: #8200F6;
+    color:  #fff;
+    padding: 0.2rem;
+    border-radius: .5rem;
+}
+
+/* TestimonalSection Section END */
+
 @media screen and (max-width: 1268px) {
     /*changes reflects on screen with a width of 720px and below*/
     .AboutMeSection .image img
@@ -631,6 +702,22 @@ header nav a:hover
   width: 25rem;
   
 }
+
+
+/* Testimonal Section */
+
+.TestimonalSection .Projects-Container
+{
+    text-align: center;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12em;
+  padding-bottom: 1em;
+  padding-top: 0em;
+}
+
+
 
   }
 
@@ -768,6 +855,19 @@ header nav a:hover
     
       width: 18rem;
       
+    }
+
+
+    /* Testimonal Section */
+
+    .TestimonalSection .Projects-Container
+    {
+        text-align: center;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    
     }
   }
 
